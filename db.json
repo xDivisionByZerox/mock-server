@@ -1,608 +1,370 @@
 {
-  "todo": [
-    {"id": 1, "title": "My first todo"},
-    {"id": 2, "title": "Other"}
-  ],
   "schools": [
-    {
-      "name": "Greenwood Secondary School",
-      "type": "Secondary",
-      "products": ["Zeraki Finance", "Zeraki Analytics"],
-      "county": "Nairobi",
-      "registrationDate": "2022-01-15",
-      "contact": "contact@greenwoodsecondary.edu",
-      "schoolBalance": 15000
-    },
-    {
-      "name": "Sunrise Primary School",
-      "type": "Primary",
-      "products": ["Zeraki Timetable"],
-      "county": "Kisumu",
-      "registrationDate": "2021-06-23",
-      "contact": "info@sunriseprimary.edu",
-      "schoolBalance": 12000
-    },
-    {
-      "name": "Bright Future Academy",
-      "type": "IGCSE",
-      "products": ["Zeraki Analytics", "Zeraki Timetable"],
-      "county": "Mombasa",
-      "registrationDate": "2020-09-12",
-      "contact": "admissions@brightfutureacademy.edu",
-      "schoolBalance": 18000
-    },
-    {
-      "name": "Harmony Secondary School",
-      "type": "Secondary",
-      "products": ["Zeraki Finance"],
-      "county": "Nakuru",
-      "registrationDate": "2019-11-01",
-      "contact": "harmony@secondary.edu",
-      "schoolBalance": 20000
-    },
-    {
-      "name": "Evergreen Primary School",
-      "type": "Primary",
-      "products": ["Zeraki Analytics"],
-      "county": "Kiambu",
-      "registrationDate": "2018-03-18",
-      "contact": "office@evergreenprimary.edu",
-      "schoolBalance": 25000
-    },
-    {
-      "name": "Prestige IGCSE School",
-      "type": "IGCSE",
-      "products": ["Zeraki Finance", "Zeraki Timetable"],
-      "county": "Nyeri",
-      "registrationDate": "2021-04-27",
-      "contact": "info@prestigeigcse.edu",
-      "schoolBalance": 30000
-    },
-    {
-      "name": "Lakeside Secondary School",
-      "type": "Secondary",
-      "products": ["Zeraki Analytics"],
-      "county": "Kisii",
-      "registrationDate": "2017-08-19",
-      "contact": "admin@lakesidesecondary.edu",
-      "schoolBalance": 22000
-    },
-    {
-      "name": "Springfield Primary School",
-      "type": "Primary",
-      "products": ["Zeraki Timetable"],
-      "county": "Machakos",
-      "registrationDate": "2020-10-11",
-      "contact": "info@springfieldprimary.edu",
-      "schoolBalance": 17000
-    },
-    {
-      "name": "Elite IGCSE Academy",
-      "type": "IGCSE",
-      "products": ["Zeraki Finance", "Zeraki Analytics"],
-      "county": "Kericho",
-      "registrationDate": "2019-12-30",
-      "contact": "admissions@eliteigcse.edu",
-      "schoolBalance": 19000
-    },
-    {
-      "name": "Starlight Secondary School",
-      "type": "Secondary",
-      "products": ["Zeraki Timetable"],
-      "county": "Bungoma",
-      "registrationDate": "2022-02-14",
-      "contact": "contact@starlightsecondary.edu",
-      "schoolBalance": 21000
-    },
-    {
-      "name": "Sunset Primary School",
-      "type": "Primary",
-      "products": ["Zeraki Finance"],
-      "county": "Eldoret",
-      "registrationDate": "2021-07-21",
-      "contact": "info@sunsetprimary.edu",
-      "schoolBalance": 11000
-    },
-    {
-      "name": "Noble IGCSE School",
-      "type": "IGCSE",
-      "products": ["Zeraki Analytics", "Zeraki Timetable"],
-      "county": "Thika",
-      "registrationDate": "2020-05-05",
-      "contact": "admissions@nobleigcse.edu",
-      "schoolBalance": 13000
-    },
-    {
-      "name": "Highlands Secondary School",
-      "type": "Secondary",
-      "products": ["Zeraki Finance", "Zeraki Analytics"],
-      "county": "Nakuru",
-      "registrationDate": "2018-09-29",
-      "contact": "info@highlandssecondary.edu",
-      "schoolBalance": 16000
-    },
-    {
-      "name": "Maplewood Primary School",
-      "type": "Primary",
-      "products": ["Zeraki Timetable"],
-      "county": "Kitui",
-      "registrationDate": "2017-11-03",
-      "contact": "office@maplewoodprimary.edu",
-      "schoolBalance": 25000
-    },
-    {
-      "name": "Pinnacle IGCSE Academy",
-      "type": "IGCSE",
-      "products": ["Zeraki Finance", "Zeraki Analytics"],
-      "county": "Kajiado",
-      "registrationDate": "2019-03-22",
-      "contact": "info@pinnacleigcse.edu",
-      "schoolBalance": 14000
-    },
-    {
-      "name": "Riverside Secondary School",
-      "type": "Secondary",
-      "products": ["Zeraki Timetable"],
-      "county": "Nairobi",
-      "registrationDate": "2021-01-17",
-      "contact": "contact@riversidesecondary.edu",
-      "schoolBalance": 12000
-    },
-    {
-      "name": "Oakwood Primary School",
-      "type": "Primary",
-      "products": ["Zeraki Finance"],
-      "county": "Nyamira",
-      "registrationDate": "2022-04-25",
-      "contact": "info@oakwoodprimary.edu",
-      "schoolBalance": 18000
-    },
-    {
-      "name": "Summit IGCSE School",
-      "type": "IGCSE",
-      "products": ["Zeraki Analytics", "Zeraki Timetable"],
-      "county": "Meru",
-      "registrationDate": "2020-07-14",
-      "contact": "admissions@summitigcse.edu",
-      "schoolBalance": 16000
-    },
-    {
-      "name": "Silver Springs Secondary School",
-      "type": "Secondary",
-      "products": ["Zeraki Finance", "Zeraki Analytics"],
-      "county": "Mombasa",
-      "registrationDate": "2018-12-10",
-      "contact": "info@silverspringssecondary.edu",
-      "schoolBalance": 23000
-    },
-    {
-      "name": "Bluebell Primary School",
-      "type": "Primary",
-      "products": ["Zeraki Timetable"],
-      "county": "Kisumu",
-      "registrationDate": "2021-02-06",
-      "contact": "info@bluebellprimary.edu",
-      "schoolBalance": 15000
-    },
-    {
-      "name": "Crestview IGCSE Academy",
-      "type": "IGCSE",
-      "products": ["Zeraki Finance", "Zeraki Analytics"],
-      "county": "Nakuru",
-      "registrationDate": "2019-05-19",
-      "contact": "info@crestviewigcse.edu",
-      "schoolBalance": 24000
-    },
-    {
-      "name": "Horizon Secondary School",
-      "type": "Secondary",
-      "products": ["Zeraki Timetable"],
-      "county": "Nairobi",
-      "registrationDate": "2020-08-22",
-      "contact": "info@horizonsecondary.edu",
-      "schoolBalance": 17000
-    },
-    {
-      "name": "Glendale Primary School",
-      "type": "Primary",
-      "products": ["Zeraki Finance"],
-      "county": "Eldoret",
-      "registrationDate": "2018-03-09",
-      "contact": "info@glendaleprimary.edu",
-      "schoolBalance": 19000
-    },
-    {
-      "name": "Vista IGCSE School",
-      "type": "IGCSE",
-      "products": ["Zeraki Analytics", "Zeraki Timetable"],
-      "county": "Nyeri",
-      "registrationDate": "2021-11-11",
-      "contact": "admissions@vistaigcse.edu",
-      "schoolBalance": 21000
-    },
-    {
-      "name": "Everest Secondary School",
-      "type": "Secondary",
-      "products": ["Zeraki Finance", "Zeraki Analytics"],
-      "county": "Thika",
-      "registrationDate": "2017-04-26",
-      "contact": "info@everestsecondary.edu",
-      "schoolBalance": 26000
-    },
-    {
-      "name": "Cedarwood Primary School",
-      "type": "Primary",
-      "products": ["Zeraki Timetable"],
-      "county": "Machakos",
-      "registrationDate": "2020-04-13",
-      "contact": "info@cedarwood.edu",
-      "schoolBalance": 26000
-    }
+      {
+        "id": 1,
+        "name": "Greenwood Secondary School",
+        "type": "Secondary",
+        "products": ["Zeraki Finance", "Zeraki Analytics"],
+        "county": "Nairobi",
+        "registrationDate": "2022-01-15",
+        "contact": "contact@greenwoodsecondary.edu",
+        "schoolBalance": 15000
+      },
+      {
+        "id": 2,
+        "name": "Sunrise Primary School",
+        "type": "Primary",
+        "products": ["Zeraki Timetable"],
+        "county": "Kisumu",
+        "registrationDate": "2021-06-23",
+        "contact": "info@sunriseprimary.edu",
+        "schoolBalance": 12000
+      },
+      {
+        "id": 3,
+        "name": "Bright Future Academy",
+        "type": "IGCSE",
+        "products": ["Zeraki Analytics", "Zeraki Timetable"],
+        "county": "Mombasa",
+        "registrationDate": "2020-09-12",
+        "contact": "admissions@brightfutureacademy.edu",
+        "schoolBalance": 18000
+      },
+      {
+        "id": 4,
+        "name": "Harmony Secondary School",
+        "type": "Secondary",
+        "products": ["Zeraki Finance"],
+        "county": "Nakuru",
+        "registrationDate": "2019-11-01",
+        "contact": "harmony@secondary.edu",
+        "schoolBalance": 20000
+      },
+      {
+        "id": 5,
+        "name": "Evergreen Primary School",
+        "type": "Primary",
+        "products": ["Zeraki Analytics"],
+        "county": "Kiambu",
+        "registrationDate": "2018-03-18",
+        "contact": "office@evergreenprimary.edu",
+        "schoolBalance": 25000
+      },
+      {
+        "id": 6,
+        "name": "Prestige IGCSE School",
+        "type": "IGCSE",
+        "products": ["Zeraki Finance", "Zeraki Timetable"],
+        "county": "Nyeri",
+        "registrationDate": "2021-04-27",
+        "contact": "info@prestigeigcse.edu",
+        "schoolBalance": 30000
+      },
+      {
+        "id": 7,
+        "name": "Lakeside Secondary School",
+        "type": "Secondary",
+        "products": ["Zeraki Analytics"],
+        "county": "Kisii",
+        "registrationDate": "2017-08-19",
+        "contact": "admin@lakesidesecondary.edu",
+        "schoolBalance": 22000
+      },
+      {
+        "id": 8,
+        "name": "Springfield Primary School",
+        "type": "Primary",
+        "products": ["Zeraki Timetable"],
+        "county": "Machakos",
+        "registrationDate": "2020-10-11",
+        "contact": "info@springfieldprimary.edu",
+        "schoolBalance": 17000
+      },
+      {
+        "id": 9,
+        "name": "Elite IGCSE Academy",
+        "type": "IGCSE",
+        "products": ["Zeraki Finance", "Zeraki Analytics"],
+        "county": "Kericho",
+        "registrationDate": "2019-12-30",
+        "contact": "admissions@eliteigcse.edu",
+        "schoolBalance": 19000
+      },        
+      {
+        "id": 10,
+        "name": "Cedarwood Primary School",
+        "type": "Primary",
+        "products": ["Zeraki Timetable"],
+        "county": "Busia",
+        "registrationDate": "2020-04-13",
+        "contact": "info@cedarwood.edu",
+        "schoolBalance": 26000
+      }
   ],
   "invoices": [
     {
+      "id": 1,
       "invoiceNumber": "INV001",
       "invoiceItem": "Zeraki Finance",
       "creationDate": "2024-05-01",
       "dueDate": "2024-06-01",
-      "amount": 5000,
+      "amount": 10000,
       "amountPaid": 0,
-      "balance": 5000,
+      "balance": 10000,
       "completionStatus": false,
       "daysUntilDue": 3,
       "client": "Greenwood Secondary School"
     },
     {
+      "id": 2,
       "invoiceNumber": "INV002",
       "invoiceItem": "Zeraki Timetable",
       "creationDate": "2024-05-05",
       "dueDate": "2024-06-05",
-      "amount": 8000,
+      "amount": 12000,
       "amountPaid": 0,
-      "balance": 8000,
+      "balance": 12000,
       "completionStatus": false,
       "daysUntilDue": 7,
       "client": "Sunrise Primary School"
     },
     {
+      "id": 3,
       "invoiceNumber": "INV003",
       "invoiceItem": "Zeraki Analytics",
       "creationDate": "2024-05-10",
       "dueDate": "2024-06-10",
-      "amount": 12000,
+      "amount": 14000,
       "amountPaid": 0,
-      "balance": 12000,
+      "balance": 14000,
       "completionStatus": false,
       "daysUntilDue": 12,
       "client": "Bright Future Academy"
     },
     {
+      "id": 4,
       "invoiceNumber": "INV004",
       "invoiceItem": "Zeraki Finance",
       "creationDate": "2024-05-15",
       "dueDate": "2024-06-15",
-      "amount": 10000,
-      "amountPaid": 5000,
-      "balance": 5000,
+      "amount": 16000,
+      "amountPaid": 0,
+      "balance": 16000,
       "completionStatus": false,
       "daysUntilDue": 18,
       "client": "Harmony Secondary School"
     },
     {
+      "id": 5,
       "invoiceNumber": "INV005",
       "invoiceItem": "Zeraki Timetable",
       "creationDate": "2024-05-20",
       "dueDate": "2024-06-20",
-      "amount": 15000,
+      "amount": 18000,
       "amountPaid": 0,
-      "balance": 15000,
+      "balance": 18000,
       "completionStatus": false,
       "daysUntilDue": 23,
       "client": "Evergreen Primary School"
     },
     {
+      "id": 6,
       "invoiceNumber": "INV006",
       "invoiceItem": "Zeraki Analytics",
       "creationDate": "2024-05-25",
       "dueDate": "2024-06-25",
-      "amount": 9000,
+      "amount": 20000,
       "amountPaid": 0,
-      "balance": 9000,
+      "balance": 20000,
       "completionStatus": false,
       "daysUntilDue": 28,
       "client": "Prestige IGCSE School"
     },
     {
+      "id": 7,
       "invoiceNumber": "INV007",
       "invoiceItem": "Zeraki Finance",
-      "creationDate": "2024-05-01",
-      "dueDate": "2024-06-01",
-      "amount": 6000,
-      "amountPaid": 2000,
-      "balance": 4000,
-      "completionStatus": false,
-      "daysUntilDue": 3,
-      "client": "Lakeside Secondary School"
-    },
-    {
-      "invoiceNumber": "INV008",
-      "invoiceItem": "Zeraki Timetable",
-      "creationDate": "2024-05-05",
-      "dueDate": "2024-06-05",
-      "amount": 11000,
-      "amountPaid": 0,
-      "balance": 11000,
-      "completionStatus": false,
-      "daysUntilDue": 7,
-      "client": "Springfield Primary School"
-    },
-    {
-      "invoiceNumber": "INV009",
-      "invoiceItem": "Zeraki Analytics",
-      "creationDate": "2024-05-10",
-      "dueDate": "2024-06-10",
-      "amount": 13000,
-      "amountPaid": 0,
-      "balance": 13000,
-      "completionStatus": false,
-      "daysUntilDue": 12,
-      "client": "Elite IGCSE Academy"
-    },
-    {
-      "invoiceNumber": "INV010",
-      "invoiceItem": "Zeraki Finance",
-      "creationDate": "2024-05-15",
-      "dueDate": "2024-06-15",
-      "amount": 7000,
-      "amountPaid": 7000,
-      "balance": 0,
-      "completionStatus": true,
-      "daysUntilDue": 18,
-      "client": "Starlight Secondary School"
-    },
-    {
-      "invoiceNumber": "INV011",
-      "invoiceItem": "Zeraki Timetable",
-      "creationDate": "2024-05-20",
-      "dueDate": "2024-06-20",
-      "amount": 9000,
-      "amountPaid": 0,
-      "balance": 9000,
-      "completionStatus": false,
-      "daysUntilDue": 23,
-      "client": "Sunset Primary School"
-    },
-    {
-      "invoiceNumber": "INV012",
-      "invoiceItem": "Zeraki Analytics",
-      "creationDate": "2024-05-25",
-      "dueDate": "2024-06-25",
-      "amount": 10000,
-      "amountPaid": 0,
-      "balance": 10000,
-      "completionStatus": false,
-      "daysUntilDue": 28,
-      "client": "Noble IGCSE School"
-    },
-    {
-      "invoiceNumber": "INV013",
-      "invoiceItem": "Zeraki Finance",
-      "creationDate": "2024-05-01",
-      "dueDate": "2024-06-01",
-      "amount": 8000,
-      "amountPaid": 4000,
-      "balance": 4000,
-      "completionStatus": false,
-      "daysUntilDue": 3,
-      "client": "Highlands Secondary School"
-    },
-    {
-      "invoiceNumber": "INV014",
-      "invoiceItem": "Zeraki Timetable",
-      "creationDate": "2024-05-05",
-      "dueDate": "2024-06-05",
+      "creationDate": "2024-06-01",
+      "dueDate": "2024-07-01",
       "amount": 12000,
       "amountPaid": 0,
       "balance": 12000,
       "completionStatus": false,
-      "daysUntilDue": 7,
-      "client": "Maplewood Primary School"
+      "daysUntilDue": 36,
+      "client": "Lakeside Secondary School"
     },
     {
-      "invoiceNumber": "INV015",
-      "invoiceItem": "Zeraki Analytics",
-      "creationDate": "2024-05-10",
-      "dueDate": "2024-06-10",
-      "amount": 11000,
+      "id": 8,
+      "invoiceNumber": "INV008",
+      "invoiceItem": "Zeraki Timetable",
+      "creationDate": "2024-06-05",
+      "dueDate": "2024-07-05",
+      "amount": 14000,
       "amountPaid": 0,
-      "balance": 11000,
+      "balance": 14000,
       "completionStatus": false,
-      "daysUntilDue": 12,
-      "client": "Pinnacle IGCSE Academy"
-    }, 
+      "daysUntilDue": 40,
+      "client": "Springfield Primary School"
+    },
+    {
+      "id": 9,
+      "invoiceNumber": "INV009",
+      "invoiceItem": "Zeraki Analytics",
+      "creationDate": "2024-06-10",
+      "dueDate": "2024-07-10",
+      "amount": 16000,
+      "amountPaid": 0,
+      "balance": 16000,
+      "completionStatus": false,
+      "daysUntilDue": 45,
+      "client": "Elite IGCSE Academy"
+    },
+    {
+      "id": 10,
+      "invoiceNumber": "INV010",
+      "invoiceItem": "Zeraki Finance",
+      "creationDate": "2024-06-15",
+      "dueDate": "2024-07-15",
+      "amount": 16000,
+      "amountPaid": 0,
+      "balance": 16000,
+      "completionStatus": false,
+      "daysUntilDue": 45,
+      "client":"Greenwood Secondary School"},
       {
+        "id": 11,
+        "invoiceNumber": "INV011",
+        "invoiceItem": "Zeraki Timetable",
+        "creationDate": "2024-06-20",
+        "dueDate": "2024-07-20",
+        "amount": 20000,
+        "amountPaid": 0,
+        "balance": 20000,
+        "completionStatus": false,
+        "daysUntilDue": 55,
+        "client": "Greenwood Secondary School"
+      },
+      {
+        "id": 12,
+        "invoiceNumber": "INV012",
+        "invoiceItem": "Zeraki Analytics",
+        "creationDate": "2024-06-25",
+        "dueDate": "2024-07-25",
+        "amount": 22000,
+        "amountPaid": 0,
+        "balance": 22000,
+        "completionStatus": false,
+        "daysUntilDue": 60,
+        "client": "Sunrise Primary School"
+      },
+      {
+        "id": 13,
+        "invoiceNumber": "INV013",
+        "invoiceItem": "Zeraki Finance",
+        "creationDate": "2024-07-01",
+        "dueDate": "2024-08-01",
+        "amount": 24000,
+        "amountPaid": 0,
+        "balance": 24000,
+        "completionStatus": false,
+        "daysUntilDue": 66,
+        "client": "Bright Future Academy"
+      },
+      {
+        "id": 14,
+        "invoiceNumber": "INV014",
+        "invoiceItem": "Zeraki Timetable",
+        "creationDate": "2024-07-05",
+        "dueDate": "2024-08-05",
+        "amount": 26000,
+        "amountPaid": 0,
+        "balance": 26000,
+        "completionStatus": false,
+        "daysUntilDue": 70,
+        "client": "Harmony Secondary School"
+      },
+      {
+        "id": 15,
+        "invoiceNumber": "INV015",
+        "invoiceItem": "Zeraki Analytics",
+        "creationDate": "2024-07-10",
+        "dueDate": "2024-08-10",
+        "amount": 28000,
+        "amountPaid": 0,
+        "balance": 28000,
+        "completionStatus": false,
+        "daysUntilDue": 75,
+        "client": "Evergreen Primary School"
+      },
+      {
+        "id": 16,
         "invoiceNumber": "INV016",
         "invoiceItem": "Zeraki Finance",
-        "creationDate": "2024-05-15",
-        "dueDate": "2024-06-15",
-        "amount": 15000,
+        "creationDate": "2024-07-15",
+        "dueDate": "2024-08-15",
+        "amount": 30000,
         "amountPaid": 0,
-        "balance": 15000,
+        "balance": 30000,
         "completionStatus": false,
-        "daysUntilDue": 18,
-        "client": "Riverside Secondary School"
+        "daysUntilDue": 80,
+        "client": "Prestige IGCSE School"
       },
       {
+        "id": 17,
         "invoiceNumber": "INV017",
         "invoiceItem": "Zeraki Timetable",
-        "creationDate": "2024-05-20",
-        "dueDate": "2024-06-20",
-        "amount": 10000,
+        "creationDate": "2024-07-20",
+        "dueDate": "2024-08-20",
+        "amount": 32000,
         "amountPaid": 0,
-        "balance": 10000,
+        "balance": 32000,
         "completionStatus": false,
-        "daysUntilDue": 23,
-        "client": "Oakwood Primary School"
+        "daysUntilDue": 85,
+        "client": "Lakeside Secondary School"
       },
       {
+        "id": 18,
         "invoiceNumber": "INV018",
         "invoiceItem": "Zeraki Analytics",
-        "creationDate": "2024-05-25",
-        "dueDate": "2024-06-25",
-        "amount": 8000,
+        "creationDate": "2024-07-25",
+        "dueDate": "2024-08-25",
+        "amount": 34000,
         "amountPaid": 0,
-        "balance": 8000,
+        "balance": 34000,
         "completionStatus": false,
-        "daysUntilDue": 28,
-        "client": "Summit IGCSE School"
+        "daysUntilDue": 90,
+        "client": "Springfield Primary School"
       },
       {
+        "id": 19,
         "invoiceNumber": "INV019",
         "invoiceItem": "Zeraki Finance",
-        "creationDate": "2024-05-01",
-        "dueDate": "2024-06-01",
-        "amount": 6000,
-        "amountPaid": 3000,
-        "balance": 3000,
+        "creationDate": "2024-08-01",
+        "dueDate": "2024-09-01",
+        "amount": 36000,
+        "amountPaid": 0,
+        "balance": 36000,
         "completionStatus": false,
-        "daysUntilDue": 3,
-        "client": "Silver Springs Secondary School"
+        "daysUntilDue": 96,
+        "client": "Elite IGCSE Academy"
       },
       {
+        "id": 20,
         "invoiceNumber": "INV020",
         "invoiceItem": "Zeraki Timetable",
-        "creationDate": "2024-05-05",
-        "dueDate": "2024-06-05",
-        "amount": 11000,
+        "creationDate": "2024-08-05",
+        "dueDate": "2024-09-05",
+        "amount": 38000,
         "amountPaid": 0,
-        "balance": 11000,
+        "balance": 38000,
         "completionStatus": false,
-        "daysUntilDue": 7,
-        "client": "Bluebell Primary School"
-      },
-      {
-        "invoiceNumber": "INV021",
-        "invoiceItem": "Zeraki Analytics",
-        "creationDate": "2024-05-10",
-        "dueDate": "2024-06-10",
-        "amount": 14000,
-        "amountPaid": 0,
-        "balance": 14000,
-        "completionStatus": false,
-        "daysUntilDue": 12,
-        "client": "Crestview IGCSE Academy"
-      },
-      {
-        "invoiceNumber": "INV022",
-        "invoiceItem": "Zeraki Finance",
-        "creationDate": "2024-05-15",
-        "dueDate": "2024-06-15",
-        "amount": 7000,
-        "amountPaid": 7000,
-        "balance": 0,
-        "completionStatus": true,
-        "daysUntilDue": 18,
-        "client": "Horizon Secondary School"
-      },
-      {
-        "invoiceNumber": "INV023",
-        "invoiceItem": "Zeraki Timetable",
-        "creationDate": "2024-05-20",
-        "dueDate": "2024-06-20",
-        "amount": 9000,
-        "amountPaid": 0,
-        "balance": 9000,
-        "completionStatus": false,
-        "daysUntilDue": 23,
-        "client": "Glendale Primary School"
-      },
-      {
-        "invoiceNumber": "INV024",
-        "invoiceItem": "Zeraki Analytics",
-        "creationDate": "2024-05-25",
-        "dueDate": "2024-06-25",
-        "amount": 10000,
-        "amountPaid": 0,
-        "balance": 10000,
-        "completionStatus": false,
-        "daysUntilDue": 28,
-        "client": "Vista IGCSE School"
-      },
-      {
-        "invoiceNumber": "INV025",
-        "invoiceItem": "Zeraki Finance",
-        "creationDate": "2024-05-01",
-        "dueDate": "2024-06-01",
-        "amount": 8000,
-        "amountPaid": 4000,
-        "balance": 4000,
-        "completionStatus": false,
-        "daysUntilDue": 3,
-        "client": "Everest Secondary School"
-      },
-      {
-        "invoiceNumber": "INV026",
-        "invoiceItem": "Zeraki Timetable",
-        "creationDate": "2024-05-05",
-        "dueDate": "2024-06-05",
-        "amount": 12000,
-        "amountPaid": 0,
-        "balance": 12000,
-        "completionStatus": false,
-        "daysUntilDue": 7,
-        "client": "Cedarwood Primary School"
-      },
-      {
-        "invoiceNumber": "INV027",
-        "invoiceItem": "Zeraki Analytics",
-        "creationDate": "2024-05-10",
-        "dueDate": "2024-06-10",
-        "amount": 11000,
-        "amountPaid": 0,
-        "balance": 11000,
-        "completionStatus": false,
-        "daysUntilDue": 12,
-        "client": "Summit IGCSE School"
-      },
-      {
-        "invoiceNumber": "INV028",
-        "invoiceItem": "Zeraki Finance",
-        "creationDate": "2024-05-15",
-        "dueDate": "2024-06-15",
-        "amount": 15000,
-        "amountPaid": 0,
-        "balance": 15000,
-        "completionStatus": false,
-        "daysUntilDue": 18,
-        "client": "Riverside Secondary School"
-      },
-      {
-        "invoiceNumber": "INV029",
-        "invoiceItem": "Zeraki Timetable",
-        "creationDate": "2024-05-20",
-        "dueDate": "2024-06-20",
-        "amount": 10000,
-        "amountPaid": 0,
-        "balance": 10000,
-        "completionStatus": false,
-        "daysUntilDue": 23,
-        "client": "Oakwood Primary School"
-      },
-      {
-        "invoiceNumber": "INV030",
-        "invoiceItem": "Zeraki Analytics",
-        "creationDate": "2024-05-25",
-        "dueDate": "2024-06-25",
-        "amount": 8000,
-        "amountPaid": 0,
-        "balance": 8000,
-        "completionStatus": false,
-        "daysUntilDue": 12,
-        "client":"Everest Secondary School"
+        "daysUntilDue": 100,
+        "client": "Starlight Secondary School"
       }
     ],
   "collections":[
     {
+      "id": 1,
       "invoiceNumber": "INV001",
       "collectionNumber": "COL001",
       "dateOfCollection": "2024-06-01",
@@ -611,6 +373,7 @@
       "client": "Greenwood Secondary School"
     },
     {
+      "id": 2,
       "invoiceNumber": "INV002",
       "collectionNumber": "COL002",
       "dateOfCollection": "2024-06-05",
@@ -619,6 +382,7 @@
       "client": "Sunrise Primary School"
     },
     {
+      "id": 3,
       "invoiceNumber": "INV003",
       "collectionNumber": "COL003",
       "dateOfCollection": "2024-06-10",
@@ -627,6 +391,7 @@
       "client": "Bright Future Academy"
     },
     {
+      "id": 4,
       "invoiceNumber": "INV004",
       "collectionNumber": "COL004",
       "dateOfCollection": "2024-06-15",
@@ -635,6 +400,7 @@
       "client": "Harmony Secondary School"
     },
     {
+      "id": 5,
       "invoiceNumber": "INV005",
       "collectionNumber": "COL005",
       "dateOfCollection": "2024-06-20",
@@ -643,6 +409,7 @@
       "client": "Evergreen Primary School"
     },
     {
+      "id": 6,
       "invoiceNumber": "INV006",
       "collectionNumber": "COL006",
       "dateOfCollection": "2024-06-25",
@@ -651,6 +418,7 @@
       "client": "Prestige IGCSE School"
     },
     {
+      "id": 7,
       "invoiceNumber": "INV007",
       "collectionNumber": "COL007",
       "dateOfCollection": "2024-06-01",
@@ -659,6 +427,7 @@
       "client": "Lakeside Secondary School"
     },
     {
+      "id": 8,
       "invoiceNumber": "INV008",
       "collectionNumber": "COL008",
       "dateOfCollection": "2024-06-05",
@@ -667,6 +436,7 @@
       "client": "Springfield Primary School"
     },
     {
+      "id": 9,
       "invoiceNumber": "INV009",
       "collectionNumber": "COL009",
       "dateOfCollection": "2024-06-10",
@@ -675,8 +445,99 @@
       "client": "Elite IGCSE Academy"
     },
     {
+      "id": 10,
       "invoiceNumber": "INV010",
       "collectionNumber": "COL010",
+      "dateOfCollection": "2024-06-15",
+      "status": "Valid",
+      "amount": 7000,
+      "client": "Starlight Secondary School"
+    },
+    {
+      "id": 11,
+      "invoiceNumber": "INV001",
+      "collectionNumber": "COL011",
+      "dateOfCollection": "2024-06-01",
+      "status": "Valid",
+      "amount": 5000,
+      "client": "Greenwood Secondary School"
+    },
+    {
+      "id": 12,
+      "invoiceNumber": "INV002",
+      "collectionNumber": "COL012",
+      "dateOfCollection": "2024-06-05",
+      "status": "Valid",
+      "amount": 8000,
+      "client": "Sunrise Primary School"
+    },
+    {
+      "id": 13,
+      "invoiceNumber": "INV003",
+      "collectionNumber": "COL013",
+      "dateOfCollection": "2024-06-10",
+      "status": "Bounced",
+      "amount": 0,
+      "client": "Bright Future Academy"
+    },
+    {
+      "id": 14,
+      "invoiceNumber": "INV004",
+      "collectionNumber": "COL014",
+      "dateOfCollection": "2024-06-15",
+      "status": "Valid",
+      "amount": 5000,
+      "client": "Harmony Secondary School"
+    },
+    {
+      "id": 15,
+      "invoiceNumber": "INV005",
+      "collectionNumber": "COL015",
+      "dateOfCollection": "2024-06-20",
+      "status": "Valid",
+      "amount": 15000,
+      "client": "Evergreen Primary School"
+    },
+    {
+      "id": 16,
+      "invoiceNumber": "INV006",
+      "collectionNumber": "COL016",
+      "dateOfCollection": "2024-06-25",
+      "status": "Valid",
+      "amount": 9000,
+      "client": "Prestige IGCSE School"
+    },
+    {
+      "id": 17,
+      "invoiceNumber": "INV007",
+      "collectionNumber": "COL017",
+      "dateOfCollection": "2024-06-01",
+      "status": "Valid",
+      "amount": 2000,
+      "client": "Lakeside Secondary School"
+    },
+    {
+      "id": 18,
+      "invoiceNumber": "INV008",
+      "collectionNumber": "COL018",
+      "dateOfCollection": "2024-06-05",
+      "status": "Valid",
+      "amount": 11000,
+      "client": "Springfield Primary School"
+    },
+    {
+      "id": 19,
+      "invoiceNumber": "INV009",
+      "collectionNumber": "COL019",
+      "dateOfCollection": "2024-06-10",
+      "status": "Valid",
+      "amount": 13000,
+      "client": "Elite IGCSE Academy"
+    },
+    {
+      "id": 20,
+      "invoiceNumber": "INV010",
+      "collectionNumber": "COL020",
       "dateOfCollection": "2024-06-15",
       "status": "Valid",
       "amount": 7000,
