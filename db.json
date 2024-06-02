@@ -567,7 +567,7 @@
       "invoiceNumber": "INV003",
       "collectionNumber": "COL003",
       "dateOfCollection": "2024-06-03",
-      "status": "Valid",
+      "status": "Bounced",
       "amount": 2000,
       "client": "Riverdale Primary School"
     },
@@ -675,7 +675,7 @@
       "invoiceNumber": "INV015",
       "collectionNumber": "COL015",
       "dateOfCollection": "2024-06-15",
-      "status": "Valid",
+      "status": "Bounced",
       "amount": 5000,
       "client": "Maplewood Elementary School"
     },
@@ -765,7 +765,7 @@
       "invoiceNumber": "INV025",
       "collectionNumber": "COL025",
       "dateOfCollection": "2024-06-25",
-      "status": "Valid",
+      "status": "Bounced",
       "amount": 4500,
       "client": "Sunnydale Secondary School"
     },
@@ -810,7 +810,7 @@
       "invoiceNumber": "INV030",
       "collectionNumber": "COL030",
       "dateOfCollection": "2024-06-30",
-      "status": "Valid",
+      "status": "Bounced",
       "amount": 3500,
       "client": "Riverside High School"
     }
