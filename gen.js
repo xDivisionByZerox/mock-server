@@ -1,8 +1,5 @@
-// import { faker } from "@faker-js/faker";
-require('faker')
-require('fs')
-//import { writeFileSync } from "fs";
-
+const { faker } = require('@faker-js/faker');
+const { writeFileSync } = require('fs');
 const zareki_products = [
   "Zareki Timetable",
   "Zareki Finance",
@@ -24,7 +21,7 @@ const generateSchools = (numSchools) => {
       id: faker.number.int({ min: 10000, max: 70000 }),
       name: faker.company.name(),
       type: faker.helpers.arrayElement(["Primary", "Secondary", "IGCSE"]),
-      products: generateProducts,
+      products: generateProducts(),
       county: faker.location.county(),
       registrationDate: faker.date.past().toISOString(),
       contact: {
@@ -67,13 +64,13 @@ const generateInvoices = (numInvoices, schools) => {
 
 const statuses = ["Valid", "Bounced"];
 
-const generateCollections = (numCollections, schools) => {
+const generateCollections = (numCollections, schools, invoices) => {
   const collections = [];
   for (let i = 0; i < numCollections; i++) {
     const school = faker.helpers.arrayElement(schools);
     collections.push({
       id: faker.number.int({ min: 10000, max: 70000 }),
-      invoiceNumber: faker.helpers.arrayElement(invoices.invoiceNumber),
+      invoiceNumber: faker.helpers.arrayElement(invoices).invoiceNumber,
       collectionNumber: faker.number.int({ min: 100, max: 10000 }),
       dateOfCollection: faker.date.past().toISOString(),
       status: faker.helpers.arrayElement(statuses),
@@ -90,7 +87,7 @@ const numCollections = 30;
 
 const schools = generateSchools(numSchools);
 const invoices = generateInvoices(numInvoices, schools);
-const collections = generateCollections(numCollections, schools);
+const collections = generateCollections(numCollections, schools, invoices);
 
 const data = {
   schools,
